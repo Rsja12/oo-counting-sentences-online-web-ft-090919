@@ -28,10 +28,10 @@ class String
   end
 
   def count_sentences
-    self.split(/[.!?]/).delete_if do |word| 
-    word.empty?
+    self.split(/[.!?]/).delete_if do |string| 
+    string.empty?
     end.count 
-    binding.pry
+    
   end
 end
 
